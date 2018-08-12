@@ -8,9 +8,18 @@ repositories. Among other things it contains
 - Official third-party binaries used in TEALS development
 - General instructor tools, such as plagarism detectors
 
-Tools
-------
+
+Development Tools
+------------------
+The [`devtools`] directory contains packages, binaries and scripts that are used across TEALS repos
+for development and build.
+
+
+Intstructor Tools
+------------------
 **[cheat-detect]** — A general tool to help detect possible code plagarism
 
 
+
 [cheat-detect]: ./cheat-detect/
+[`devtools`]:  ./devtools/
