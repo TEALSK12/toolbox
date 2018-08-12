@@ -17,12 +17,15 @@ REM -- Aet the APCSA_CURRICULUM environment variable to point to the APCSA curri
 :setupCurriculumDir
 if defined APCSA_CURRICULUM goto :foundCurriculum
 
-if exist ..\..\..\apcsa-instructor\apcsa-public goto :foundCurriculumDirectory
+set APCSA_CURRICULUM=..\..\..\apcsa-instructor\apcsa-public\curriculum
+
+if exist %APCSA_CURRICULUM% goto :foundCurriculumDirectory
+set APCSA_CURRICULUM=
 echo 1>&2Error: APCSA_CURRICULUM is not defined, and apcsa-public not found via expected path.
 exit /b 1
 
 :foundCurriculumDirectory
-pushd ..\..\..\apcsa-instructor\apcsa-public
+pushd %APCSA_CURRICULUM%
     set APCSA_CURRICULUM=%CD%
 popd
 
