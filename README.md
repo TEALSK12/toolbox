@@ -15,6 +15,11 @@ The [`devtools`] directory contains packages, binaries and scripts that are used
 for development and build.
 
 
+Installed Applications
+-----------------------
+The [`install`] directory contains installers for various applications used by TEALS.
+
+
 Intstructor Tools
 ------------------
 **[cheat-detect]** — A general tool to help detect possible code plagarism
@@ -22,4 +27,5 @@ Intstructor Tools
 
 
 [cheat-detect]: ./cheat-detect/
-[`devtools`]:  ./devtools/
+[`devtools`]:   ./devtools/
+[`install`]:    ./install/
