@@ -8,3 +8,9 @@ repositories. Among other things it contains
 - Official third-party binaries used in TEALS development
 - General instructor tools, such as plagarism detectors
 
+Tools
+------
+**[cheat-detect]** — A general tool to help detect possible code plagarism
+
+
+[cheat-detect]: ./cheat-detect/

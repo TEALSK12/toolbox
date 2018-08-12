@@ -1,0 +1,7 @@
+# v1.7 090620
+STARTPATH = r'example'
+SKIPPATHS = [] # actually subtrees
+EXTS = ['java']
+RESULTFILE = r'result.tsv'
+CLOSENESSFACTOR = 0.93
+AUTOJUNK = False
